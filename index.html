@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Title</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+
+
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./flexboxgrid.css&">
+    </head>
+
+    <body>
+
+
+        <script>
+        window.onscroll = function() {
+    scrollFunctionHere(window.pageYOffset);
+};
+        </script>
+
+        <header>
+        
+
+        <nav style="background-color: rgb(71, 112, 199)" class="uk-navbar-container" uk-navbar="mode: click">
+            <div class="uk-navbar-left">
+        
+                <ul class="uk-navbar-nav">
+               
+                        <a href="#"><span uk-icon="menu"></span></a>
+                      
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav" >
+                                <li class="uk-active"><a href="#">Home</a></li>
+                                <li class="uk-active"><a href="#">Dashboard</a></li>
+                                <li class="uk-a&&ctive"><a href="#">Techtalks</a></li>
+                                <li class="uk-active"><a href="#">Assignments</a></li>
+                                <li class="uk-active"><a href="#">Solutions</a></li>
+                                <li class="uk-active"><a href="#">Groups</a></li>
+                                <li class="uk-active"><a href="#">Resources</a></li>
+                                <li class="uk-active"><a href="#">Relax Zone</a></li>
+                                <li class="uk-active"><a href="#">Badges</a></li>
+                                <li class="uk-active"><a href="#">My profile</a></li>
+                                <li class="uk-active"><a href="#">About my BeCode</a></li>
+                                <li class="uk-active"><a href="#">Help</a></li>
+                                
+                            </ul>
+                        </div>
+                  
+                </ul>
+
+                <div class="uk-navbar-item">
+                    <form action="javascript:void(0)">
+                        <div class="uk-inline">
+                            <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: search"></span>
+                            <input class="uk-input" type="text">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+   <!--assingment buttons-->
+        <section id="uk-tile  uk-tile-muted">
+            <h1 class="uk-heading-medium uk-text-bold">Welcome back to <br> MY <span class="uk-text-primary">BECODE</span></h1>
+        
+            <div class="uk-column-1-5 " >
+                <div><a class="uk-button uk-button-default" href="">Assignments</a></div>
+                <div><a class="uk-button uk-button-default" href="">Solutions</a></div>
+                <div><a class="uk-button uk-button-default" href="">Groups</a></div>
+                <div><a class="uk-button uk-button-default" href="">Resources</a></div>
+                <div><a class="uk-button uk-button-default" href="">relax Zone</a></div>
+            </div>
+      
+    </section>
+      
+          
+
+    <!--attendance-->
+    <section id="main-section">
+              <div class="attend">
+                  <h1>Attendances</h1>
+                
+                    <progress id="js-progressbar" class="uk-float-right" value="80" max="100"></progress> 
+                    <p>80% attendance rate </p>
+
+
+                    <div class="uk-column-1-4 ">
+                        <div><span uk-icon="smile"></span><a class="uk-button uk-button-default" href="">09:00</a></div>
+                        <div><span uk-icon="smile"></span><a class="uk-button uk-button-default" href="">12:30</a></div>
+                        <div><span uk-icon="smile"></span><a class="uk-button uk-button-default" href="">13:30</a></div>
+                        <div><span uk-icon="smile"></span><a class="uk-button uk-button-default" href="">17:00</a></div>
+                    </div>
+
+                    <aside class="main">
+                       <div><span uk-icon=""></span><a class="uk-button uk-button-default" href="">Home</a></div>
+                        <div><span uk-icon=""></span><a class="uk-button uk-button-default" href="">BeCode</a></div>
+                    </aside>
+              </div>
+              
+           
+            </section>
+       
+
+        
+  
+
+    </body>
+</html>
