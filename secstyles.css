@@ -28,22 +28,20 @@ body {
 
 
 
-
-.uk-column-1-2 { 
-    border-color: black;
-    border-radius: 360px;
+h2 {
     font-size: 25px;
-    color: rgb(0, 2, 2);
+    font-weight: 900;
+    color:black;
+    
+
+}
+
+.maintextspan {
+
+font-weight: 600px;
+color:rgb(31, 28, 28);
+font-size: 20px;
 
 
 }
 
-.uk-column-1-2 {
-   text-align: center;
-    margin-top: 5em;
-    margin-left: 13em;
-  
-}
-
-
-   
